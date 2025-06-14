@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JUB Coin – Built for Trust</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #000000, #1a1a1a);
+    }
+  </style>
+</head>
+<body class="text-white overflow-x-hidden">
+
+  <section class="min-h-screen flex flex-col items-center justify-center text-center px-6 relative" data-aos="fade-up">
+    <img src="jub-logo.png" alt="JUB Coin" class="w-32 h-32 animate-spin-slow mb-6" />
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">Built for Trust.<br />Powered by Community.</h1>
+    <p class="text-lg text-gray-300 max-w-xl mb-8">A fixed-supply BEP-20 token on BNB Chain with zero tax, no mint, and locked ownership.</p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <a href="#" class="bg-green-500 hover:bg-green-600 text-black font-bold py-2 px-5 rounded-full shadow-lg">Buy on PancakeSwap</a>
+      <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-5 rounded-full border border-gray-600">View Whitepaper</a>
+      <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-5 rounded-full border border-gray-600">Check BscScan</a>
+      <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-5 rounded-full border border-gray-600">Join Telegram</a>
+    </div>
+  </section>
+
+  <script>
+    AOS.init();
+  </script>
+  <style>
+    .animate-spin-slow {
+      animation: spin 10s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</body>
+</html>
